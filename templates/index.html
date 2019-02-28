@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Skidresultat</title>
+</head>
+<body>
+<div class="container-fluid h-100">
+
+        <div class="card text-center">
+            <h5 class="card-header">Fridas resultat</h5>
+            <div class="card-body">
+                <p class="card-text">2015/2016 och framåt</p>
+                Totalt antal lopp ({{ ftot[0][0] }})<br>
+                Pallplatser skidtävlingar ({{ fcountpallplatser[0][0] }}/{{ ftotcomp[0][0] }})<br>(
+                {% for p in fpallplatser %}
+                    {{ p[0] }}
+                    {{ "/" if not loop.last }}
+                {% endfor %}
+                )
+                <br>
+                <a href="{{ url_for('frida_results') }}" class="btn btn-primary">Skidresultat</a>
+                <br><br>
+                {% set glob={} %}
+                {% set _ = glob.update({'fcount':0}) %}
+                Pallplatser Skidskytte ({{ b_fcountpallplatser[0][0] }}/{{ b_ftot[0][0] }})<br>(
+                {% for p in b_fpallplatser %}
+                    {{ p[0] }}
+                    {{ "/" if not loop.last }}
+                    {% set _ = glob.update({'fcount':loop.index}) %}
+                {% endfor %}
+
+                {% if glob['fcount'] < 1 %}
+                    0
+                {% endif %}
+                {% if glob['fcount'] < 2 %}
+                    / 0
+                {% endif %}
+                 {% if glob['fcount'] < 3 %}
+                    / 0
+                {% endif %}
+                )
+                <br>
+                <a href="{{ url_for('frida_biathlon_results') }}" class="btn btn-primary">Skidskytteresultat</a>
+            </div>
+        </div>
+        <div class="card text-center">
+            <h5 class="card-header">Tildes resultat</h5>
+            <div class="card-body">
+                <p class="card-text">2018/2019 och framåt</p>
+                {% set glob={} %}
+                {% set _ = glob.update({'tcount':0}) %}
+                Totalt antal lopp ({{ ttot[0][0] }})<br>
+                Pallplatser skidtävlingar ({{ tcountpallplatser[0][0] }}/{{ ttotcomp[0][0] }})<br>(
+                {% for p in tpallplatser %}
+                    {{ p[0] }}
+                    {{ "/" if not loop.last }}
+                    {% set _ = glob.update({'tcount':loop.index}) %}
+                {% endfor %}
+
+                {% if glob['tcount'] < 1 %}
+                    0
+                {% endif %}
+                {% if glob['tcount'] < 2 %}
+                    / 0
+                {% endif %}
+                 {% if glob['tcount'] < 3 %}
+                    / 0
+                {% endif %}
+                )
+                <br>
+                <a href="{{ url_for('tilde_results') }}" class="btn btn-primary">Skidresultat</a>
+            </div>
+        </div>
+</div>
+{% for t in results %}
+    {{ t[0] }}
+    {{ t[1] }}
+{% endfor %}
+</body>
+</html>
