@@ -30,6 +30,7 @@
                 <br><br>
                 {% set glob={} %}
                 {% set _ = glob.update({'fcount':0}) %}
+                Totalt antal lopp ({{ b_ftot[0][0] }})<br>
                 Pallplatser Skidskytte ({{ b_fcountpallplatser[0][0] }}/{{ b_ftot[0][0] }})<br>(
                 {% for p in b_fpallplatser %}
                     {{ p[0] }}
