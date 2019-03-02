@@ -3,6 +3,7 @@ import os
 import sqlite3
 from lib.functions import *
 from flask import Flask, render_template
+import glob
 
 app = Flask(__name__)
 
@@ -25,7 +26,10 @@ def load_database(database):
     except sqlite3.OperationalError as e:
         print(e)
 
-    json_data = json.load(open(database))
+    json_data = dict()
+    for jsonfile in glob.glob(database + '/*.json'):
+        json_data.update(json.load(open(jsonfile)))
+
     for sqlstatement in json_data['competition']:
         c.execute("insert into competition values (" + sqlstatement['id'] + ",'" + sqlstatement['name'] +
                   "','" + sqlstatement['tour'] + "')")
@@ -102,7 +106,7 @@ def index():
 
     global dbconn
 
-    dbconn = load_database('static/skid_db.json')
+    dbconn = load_database('static/database')
     if os.path.isfile('/tmp/backup.db'):
         os.remove('/tmp/backup.db')
     with sqlite3.connect('/tmp/backup.db') as new_db:

@@ -1,0 +1,139 @@
+{
+  "competition": [
+    {
+      "id": "1",
+      "name": "Hudikrännet",
+      "tour": "0"
+    },
+    {
+      "id": "2",
+      "name": "Tour de Fyrfasen",
+      "tour": "1"
+    },
+    {
+      "id": "3",
+      "name": "Tynderöcupen",
+      "tour": "0"
+    },
+    {
+      "id": "4",
+      "name": "Kovlandsloppet",
+      "tour": "0"
+    },
+    {
+      "id": "5",
+      "name": "Graningerundan",
+      "tour": "0"
+    },
+    {
+      "id": "6",
+      "name": "Graningecrossen",
+      "tour": "0"
+    },
+    {
+      "id": "7",
+      "name": "Öknerundan",
+      "tour": "0"
+    },
+    {
+      "id": "8",
+      "name": "Intersports ungdomsmästerskap",
+      "tour": "0"
+    },
+    {
+      "id": "9",
+      "name": "Sundsvalls Ungdomsspel",
+      "tour": "1"
+    },
+    {
+      "id": "10",
+      "name": "BIK Skidspel",
+      "tour": "0"
+    },
+    {
+      "id": "11",
+      "name": "Åstöloppet",
+      "tour": "0"
+    },
+    {
+      "id": "12",
+      "name": "Lilla Borgsjöloppet",
+      "tour": "0"
+    },
+    {
+      "id": "13",
+      "name": "Längdfestivalen",
+      "tour": "1"
+    },
+    {
+      "id": "14",
+      "name": "Remslespelen",
+      "tour": "0"
+    },
+    {
+      "id": "15",
+      "name": "Norrskogssvängen",
+      "tour": "0"
+    },
+    {
+      "id": "16",
+      "name": "HIF Sprinten",
+      "tour": "0"
+    },
+    {
+      "id": "17",
+      "name": "Västernorrlands Cup 1",
+      "tour": "0"
+    },
+    {
+      "id": "18",
+      "name": "Västernorrlands Cup 2",
+      "tour": "0"
+    },
+    {
+      "id": "19",
+      "name": "Västernorrlands Cup 3",
+      "tour": "0"
+    },
+    {
+      "id": "20",
+      "name": "Västernorrlands Cup 4",
+      "tour": "0"
+    },
+    {
+      "id": "21",
+      "name": "Sollefteå Biathlon Games",
+      "tour": "0"
+    },
+    {
+      "id": "22",
+      "name": "ICA Matforsloppet",
+      "tour": "0"
+    },
+    {
+      "id": "23",
+      "name": "JIF-Skidan",
+      "tour": "0"
+    },
+    {
+      "id": "24",
+      "name": "Bergeforsens Ungdomsrace",
+      "tour": "0"
+    },
+    {
+      "id": "25",
+      "name": "Luckstaskidan",
+      "tour": "1"
+    },
+    {
+      "id": "26",
+      "name": "Bror Viklunds lopp",
+      "tour": "0"
+    },
+    {
+      "id": "27",
+      "name": "Ramirent Sprint Relay",
+      "tour": "0"
+    }
+  ]
+}
