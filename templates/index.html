@@ -13,8 +13,8 @@
 </head>
 <body>
 <div class="container-fluid h-100">
-
-        <div class="card text-center">
+    <div class="row">
+        <div class="card text-center" style="width: 50rem;margin:0 auto;">
             <h5 class="card-header">Fridas resultat</h5>
             <div class="card-body">
                 <p class="card-text">2015/2016 och framåt</p>
@@ -52,7 +52,7 @@
                 <a href="{{ url_for('frida_biathlon_results') }}" class="btn btn-primary">Skidskytteresultat</a>
             </div>
         </div>
-        <div class="card text-center">
+        <div class="card text-center" style="width: 50rem;margin:0 auto;height: 50rem;">
             <h5 class="card-header">Tildes resultat</h5>
             <div class="card-body">
                 <p class="card-text">2018/2019 och framåt</p>
@@ -80,6 +80,7 @@
                 <a href="{{ url_for('tilde_results') }}" class="btn btn-primary">Skidresultat</a>
             </div>
         </div>
+    </div>
 </div>
 {% for t in results %}
     {{ t[0] }}

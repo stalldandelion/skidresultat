@@ -123,7 +123,7 @@ def get_results(c, skier, season):
     tot = c.fetchall()
 
     c.execute(
-        "select count(a.tourresult) from results a, skier b, season c where b.name='Frida Bergqvist' and "
+        "select count(a.tourresult) from results a, skier b, season c where b.name='" + skier + "' and "
         "c.name='" + season + "' and a.competitionpart in (0, 1) and c.id=a.seasonid and a.skierid=b.id "
                               "and a.tourresult < 4 and a.tourresult > 0")
     scountpallplatser = c.fetchall()
