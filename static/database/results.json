@@ -1130,6 +1130,71 @@
       "time": "6:28",
       "tourresult": "7",
       "tour": "1"
+    },
+    {
+      "id": "88",
+      "compid": "1",
+      "seasonid": "4",
+      "skierid": "2",
+      "competitionpart": "1",
+      "result": "3",
+      "distance": "0,8",
+      "teqnique": "sprint",
+      "time": "3:46",
+      "tourresult": "3",
+      "tour": "1"
+    },
+    {
+      "id": "89",
+      "compid": "1",
+      "seasonid": "4",
+      "skierid": "2",
+      "competitionpart": "2",
+      "result": "3",
+      "distance": "1,4",
+      "teqnique": "skate",
+      "time": "7:35",
+      "tourresult": "3",
+      "tour": "1"
+    },
+    {
+      "id": "90",
+      "compid": "28",
+      "seasonid": "4",
+      "skierid": "1",
+      "competitionpart": "1",
+      "result": "3",
+      "distance": "4x1",
+      "teqnique": "skate",
+      "time": "17:59",
+      "tourresult": "3",
+      "tour": "0"
+    },
+    {
+      "id": "91",
+      "compid": "28",
+      "seasonid": "4",
+      "skierid": "2",
+      "competitionpart": "1",
+      "result": "4",
+      "distance": "4x1",
+      "teqnique": "skate",
+      "time": "23:24",
+      "tourresult": "4",
+      "tour": "0"
+    },
+     {
+      "id": "92",
+      "compid": "29",
+      "seasonid": "4",
+      "skierid": "1",
+      "competitionpart": "0",
+      "result": "4",
+      "distance": "Sprint",
+      "teqnique": "Biathlon",
+      "time": "13:35",
+      "shooting": "2-1",
+      "tour": "0"
     }
    ]
 }

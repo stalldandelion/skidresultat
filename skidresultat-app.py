@@ -74,7 +74,6 @@ def skidresults(skier, template, biathlon=False):
         else:
             results, fvinster, fandra, ftredje, stot, scountpallplatser = get_results(dbconn, skier, season)
 
-        print('hej: ' + str(fvinster))
         results.sort(key=operator.itemgetter(0, 6))
         season_results[season] = results
         season_pallplatser[season] = [scountpallplatser[0], stot[0]]
