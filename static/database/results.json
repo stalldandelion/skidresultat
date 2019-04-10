@@ -1195,6 +1195,32 @@
       "time": "13:35",
       "shooting": "2-1",
       "tour": "0"
+    },
+    {
+      "id": "93",
+      "compid": "14",
+      "seasonid": "4",
+      "skierid": "1",
+      "competitionpart": "1",
+      "result": "2",
+      "distance": "2,5",
+      "teqnique": "skate",
+      "time": "10:48",
+      "tourresult": "2",
+      "tour": "0"
+    },
+     {
+      "id": "94",
+      "compid": "14",
+      "seasonid": "4",
+      "skierid": "2",
+      "competitionpart": "1",
+      "result": "7",
+      "distance": "1,2",
+      "teqnique": "skate",
+      "time": "6:04",
+      "tourresult": "7",
+      "tour": "0"
     }
    ]
 }
