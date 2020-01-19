@@ -1273,6 +1273,30 @@
       "time": "5:47",
       "tourresult": "5",
       "tour": "0"
-    }
-   ]
+     {
+      "id": "99",
+      "compid": "30",
+      "seasonid": "5",
+      "skierid": "1",
+      "competitionpart": "1",
+      "result": "3",
+      "distance": "0,650",
+      "teqnique": "skate",
+      "time": "00:00",
+      "tourresult": "3",
+      "tour": "0"
+    },
+     {
+      "id": "100",
+      "compid": "30",
+      "seasonid": "5",
+      "skierid": "2",
+      "competitionpart": "1",
+      "result": "8",
+      "distance": "0,500",
+      "teqnique": "skate",
+      "time": "00:00",
+      "tourresult": "8",
+      "tour": "0"
+    }   ]
 }
