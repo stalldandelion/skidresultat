@@ -1338,6 +1338,32 @@
       "time": "26:56",
       "shooting": "4-1-0",
       "tour": "0"
+    },
+     {
+      "id": "104",
+      "compid": "31",
+      "seasonid": "5",
+      "skierid": "1",
+      "competitionpart": "1",
+      "result": "4",
+      "distance": "2x0,750",
+      "teqnique": "klassisk",
+      "time": "00:00",
+      "tourresult": "4",
+      "tour": "0"
+    },
+     {
+      "id": "105",
+      "compid": "31",
+      "seasonid": "5",
+      "skierid": "2",
+      "competitionpart": "1",
+      "result": "2",
+      "distance": "2x0,750",
+      "teqnique": "klassisk",
+      "time": "00:00",
+      "tourresult": "2",
+      "tour": "0"
     }
    ]
 }
