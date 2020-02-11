@@ -1325,6 +1325,19 @@
       "time": "5:02",
       "tourresult": "5",
       "tour": "0"
+    },
+     {
+      "id": "103",
+      "compid": "18",
+      "seasonid": "5",
+      "skierid": "1",
+      "competitionpart": "0",
+      "result": "2",
+      "distance": "Distans",
+      "teqnique": "Biathlon",
+      "time": "26:56",
+      "shooting": "4-1-0",
+      "tour": "0"
     }
    ]
 }
