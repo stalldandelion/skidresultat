@@ -154,6 +154,16 @@
       "id": "31",
       "name": "Remsle Sprintstafett",
       "tour": "0"
+    },
+    {
+      "id": "32",
+      "name": "Riksfinaler",
+      "tour": "0"
+    },
+     {
+      "id": "31",
+      "name": "Volkswagen ungdomscup",
+      "tour": "0"
     }
   ]
 }
