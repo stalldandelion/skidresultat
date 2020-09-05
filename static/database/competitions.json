@@ -161,8 +161,18 @@
       "tour": "0"
     },
      {
-      "id": "31",
+      "id": "33",
       "name": "Volkswagen ungdomscup",
+      "tour": "0"
+    },
+     {
+      "id": "34",
+      "name": "Tunnelsprinten",
+      "tour": "0"
+    },
+     {
+      "id": "35",
+      "name": "USM Rullskidskytte",
       "tour": "0"
     }
   ]

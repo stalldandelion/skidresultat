@@ -23,7 +23,7 @@ def get_highest_location_id():
 def get_seasons(c, skier):
 
     c.execute("select distinct(a.name) from season a, results b, skier c where c.name='" + skier + "' and "
-              "b.skierid=c.id and a.id in (select distinct(seasonid) from results)")
+              "b.skierid=c.id and a.id in (select distinct(seasonid) from biathlon_results)")
 
     return [x[0] for x in c.fetchall()][::-1]
 
