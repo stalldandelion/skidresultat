@@ -1,3 +1,4 @@
+#!venv/bin/python
 import operator
 import os
 import sqlite3
