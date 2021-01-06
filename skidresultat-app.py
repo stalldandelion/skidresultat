@@ -1,6 +1,8 @@
-#!venv/bin/python
+#!/usr/bin/env skidr_python
 import operator
 import os
+import os, sys
+sys.path.append(os.path.join(os.path.dirname(__file__), "lib"))
 import sqlite3
 from lib.functions import *
 from flask import Flask, render_template

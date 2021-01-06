@@ -1494,6 +1494,32 @@
       "time": "1:14",
       "tourresult": "9",
       "tour": "0"
+    },
+   {
+    "id": "116",
+    "compid": "18",
+    "seasonid": "6",
+    "skierid": "1",
+    "competitionpart": "0",
+    "result": "1",
+    "distance": "Supersprint",
+    "teqnique": "Biathlon",
+    "time": "13:24",
+    "shooting": "0-0",
+    "tour": "0"
+  },
+     {
+      "id": "117",
+      "compid": "19",
+      "seasonid": "5",
+      "skierid": "1",
+      "competitionpart": "0",
+      "result": "1",
+      "distance": "Sprint",
+      "teqnique": "Biathlon",
+      "time": "15:00",
+      "shooting": "1-1",
+      "tour": "0"
     }
    ]
 }
