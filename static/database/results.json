@@ -1,5 +1,5 @@
 {
-   "results": [
+  "results": [
     {
       "id": "1",
       "compid": "3",
@@ -728,7 +728,7 @@
       "shooting": "3-0",
       "tour": "0"
     },
-     {
+    {
       "id": "57",
       "compid": "21",
       "seasonid": "4",
@@ -832,7 +832,7 @@
       "tourresult": "3",
       "tour": "0"
     },
-     {
+    {
       "id": "65",
       "compid": "12",
       "seasonid": "4",
@@ -845,7 +845,7 @@
       "tourresult": "4",
       "tour": "0"
     },
-     {
+    {
       "id": "66",
       "compid": "12",
       "seasonid": "4",
@@ -858,7 +858,7 @@
       "tourresult": "3",
       "tour": "0"
     },
-      {
+    {
       "id": "67",
       "compid": "4",
       "seasonid": "4",
@@ -871,7 +871,7 @@
       "tourresult": "3",
       "tour": "0"
     },
-      {
+    {
       "id": "68",
       "compid": "4",
       "seasonid": "4",
@@ -884,7 +884,7 @@
       "tourresult": "8",
       "tour": "0"
     },
-      {
+    {
       "id": "69",
       "compid": "11",
       "seasonid": "4",
@@ -897,7 +897,7 @@
       "tourresult": "5",
       "tour": "0"
     },
-      {
+    {
       "id": "70",
       "compid": "11",
       "seasonid": "4",
@@ -910,7 +910,7 @@
       "tourresult": "2",
       "tour": "0"
     },
-      {
+    {
       "id": "71",
       "compid": "24",
       "seasonid": "4",
@@ -923,7 +923,7 @@
       "tourresult": "3",
       "tour": "0"
     },
-      {
+    {
       "id": "72",
       "compid": "24",
       "seasonid": "4",
@@ -936,7 +936,7 @@
       "tourresult": "6",
       "tour": "0"
     },
-      {
+    {
       "id": "73",
       "compid": "25",
       "seasonid": "4",
@@ -949,7 +949,7 @@
       "tourresult": "11",
       "tour": "1"
     },
-      {
+    {
       "id": "74",
       "compid": "25",
       "seasonid": "4",
@@ -962,7 +962,7 @@
       "tourresult": "11",
       "tour": "1"
     },
-      {
+    {
       "id": "75",
       "compid": "25",
       "seasonid": "4",
@@ -975,7 +975,7 @@
       "tourresult": "1",
       "tour": "1"
     },
-      {
+    {
       "id": "76",
       "compid": "25",
       "seasonid": "4",
@@ -988,7 +988,7 @@
       "tourresult": "1",
       "tour": "1"
     },
-      {
+    {
       "id": "77",
       "compid": "26",
       "seasonid": "4",
@@ -1001,7 +1001,7 @@
       "tourresult": "1",
       "tour": "0"
     },
-      {
+    {
       "id": "78",
       "compid": "27",
       "seasonid": "4",
@@ -1014,7 +1014,7 @@
       "tourresult": "1",
       "tour": "0"
     },
-      {
+    {
       "id": "79",
       "compid": "27",
       "seasonid": "4",
@@ -1027,7 +1027,7 @@
       "tourresult": "7",
       "tour": "0"
     },
-      {
+    {
       "id": "80",
       "compid": "7",
       "seasonid": "4",
@@ -1040,7 +1040,7 @@
       "tourresult": "2",
       "tour": "0"
     },
-      {
+    {
       "id": "81",
       "compid": "7",
       "seasonid": "4",
@@ -1183,7 +1183,7 @@
       "tourresult": "4",
       "tour": "0"
     },
-     {
+    {
       "id": "92",
       "compid": "29",
       "seasonid": "4",
@@ -1209,7 +1209,7 @@
       "tourresult": "2",
       "tour": "0"
     },
-     {
+    {
       "id": "94",
       "compid": "14",
       "seasonid": "4",
@@ -1222,7 +1222,7 @@
       "tourresult": "7",
       "tour": "0"
     },
-     {
+    {
       "id": "95",
       "compid": "15",
       "seasonid": "5",
@@ -1235,7 +1235,7 @@
       "tourresult": "7",
       "tour": "0"
     },
-     {
+    {
       "id": "96",
       "compid": "10",
       "seasonid": "5",
@@ -1248,7 +1248,7 @@
       "tourresult": "9",
       "tour": "0"
     },
-     {
+    {
       "id": "97",
       "compid": "5",
       "seasonid": "5",
@@ -1261,7 +1261,7 @@
       "tourresult": "2",
       "tour": "0"
     },
-     {
+    {
       "id": "98",
       "compid": "5",
       "seasonid": "5",
@@ -1274,7 +1274,7 @@
       "tourresult": "5",
       "tour": "0"
     },
-     {
+    {
       "id": "99",
       "compid": "30",
       "seasonid": "5",
@@ -1287,7 +1287,7 @@
       "tourresult": "3",
       "tour": "0"
     },
-     {
+    {
       "id": "100",
       "compid": "30",
       "seasonid": "5",
@@ -1300,7 +1300,7 @@
       "tourresult": "8",
       "tour": "0"
     },
-     {
+    {
       "id": "101",
       "compid": "14",
       "seasonid": "5",
@@ -1313,7 +1313,7 @@
       "tourresult": "2",
       "tour": "0"
     },
-     {
+    {
       "id": "102",
       "compid": "14",
       "seasonid": "5",
@@ -1326,7 +1326,7 @@
       "tourresult": "5",
       "tour": "0"
     },
-     {
+    {
       "id": "103",
       "compid": "18",
       "seasonid": "5",
@@ -1339,7 +1339,7 @@
       "shooting": "4-1-0",
       "tour": "0"
     },
-     {
+    {
       "id": "104",
       "compid": "31",
       "seasonid": "5",
@@ -1352,7 +1352,7 @@
       "tourresult": "4",
       "tour": "0"
     },
-     {
+    {
       "id": "105",
       "compid": "31",
       "seasonid": "5",
@@ -1365,7 +1365,7 @@
       "tourresult": "2",
       "tour": "0"
     },
-     {
+    {
       "id": "106",
       "compid": "32",
       "seasonid": "5",
@@ -1378,7 +1378,7 @@
       "shooting": "2-1",
       "tour": "0"
     },
-     {
+    {
       "id": "107",
       "compid": "32",
       "seasonid": "5",
@@ -1391,7 +1391,7 @@
       "shooting": "2-2-4",
       "tour": "0"
     },
-     {
+    {
       "id": "108",
       "compid": "34",
       "seasonid": "6",
@@ -1404,7 +1404,7 @@
       "shooting": "1-0-0",
       "tour": "0"
     },
-     {
+    {
       "id": "109",
       "compid": "34",
       "seasonid": "6",
@@ -1417,7 +1417,7 @@
       "shooting": "3-2-2",
       "tour": "0"
     },
-     {
+    {
       "id": "110",
       "compid": "34",
       "seasonid": "6",
@@ -1430,7 +1430,7 @@
       "shooting": "3-1-2",
       "tour": "0"
     },
-     {
+    {
       "id": "111",
       "compid": "35",
       "seasonid": "6",
@@ -1443,7 +1443,7 @@
       "shooting": "1-1-1",
       "tour": "0"
     },
-     {
+    {
       "id": "112",
       "compid": "35",
       "seasonid": "6",
@@ -1456,7 +1456,7 @@
       "shooting": "3-2",
       "tour": "0"
     },
-     {
+    {
       "id": "113",
       "compid": "33",
       "seasonid": "5",
@@ -1469,7 +1469,7 @@
       "tourresult": "33",
       "tour": "0"
     },
-     {
+    {
       "id": "114",
       "compid": "33",
       "seasonid": "5",
@@ -1482,7 +1482,7 @@
       "tourresult": "43",
       "tour": "0"
     },
-     {
+    {
       "id": "115",
       "compid": "33",
       "seasonid": "5",
@@ -1495,20 +1495,20 @@
       "tourresult": "9",
       "tour": "0"
     },
-   {
-    "id": "116",
-    "compid": "18",
-    "seasonid": "6",
-    "skierid": "1",
-    "competitionpart": "0",
-    "result": "1",
-    "distance": "Supersprint",
-    "teqnique": "Biathlon",
-    "time": "13:24",
-    "shooting": "0-0",
-    "tour": "0"
-  },
-     {
+    {
+      "id": "116",
+      "compid": "18",
+      "seasonid": "6",
+      "skierid": "1",
+      "competitionpart": "0",
+      "result": "1",
+      "distance": "Supersprint",
+      "teqnique": "Biathlon",
+      "time": "13:24",
+      "shooting": "0-0",
+      "tour": "0"
+    },
+    {
       "id": "117",
       "compid": "19",
       "seasonid": "5",
@@ -1520,6 +1520,32 @@
       "time": "15:00",
       "shooting": "1-1",
       "tour": "0"
+    },
+    {
+      "id": "118",
+      "compid": "17",
+      "seasonid": "6",
+      "skierid": "1",
+      "competitionpart": "0",
+      "result": "1",
+      "distance": "Distans",
+      "teqnique": "Biathlon",
+      "time": "25:56",
+      "shooting": "1-2-1",
+      "tour": "0"
+    },
+    {
+      "id": "119",
+      "compid": "36",
+      "seasonid": "6",
+      "skierid": "2",
+      "competitionpart": "1",
+      "result": "11",
+      "distance": "1,7",
+      "teqnique": "skate",
+      "time": "7:36",
+      "tourresult": "11",
+      "tour": "0"
     }
-   ]
+  ]
 }
