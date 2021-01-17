@@ -1546,6 +1546,19 @@
       "time": "7:36",
       "tourresult": "11",
       "tour": "0"
+    },
+    {
+      "id": "120",
+      "compid": "4",
+      "seasonid": "6",
+      "skierid": "1",
+      "competitionpart": "1",
+      "result": "1",
+      "distance": "3,7",
+      "teqnique": "skate",
+      "time": "12:27",
+      "tourresult": "1",
+      "tour": "0"
     }
   ]
 }
