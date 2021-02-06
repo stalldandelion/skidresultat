@@ -179,6 +179,16 @@
       "id": "36",
       "name": "Matforsdagen",
       "tour": "0"
+    },
+     {
+      "id": "37",
+      "name": "Alnörännet",
+      "tour": "0"
+    },
+     {
+      "id": "38",
+      "name": "Sankt Olofsrännet",
+      "tour": "0"
     }
   ]
 }

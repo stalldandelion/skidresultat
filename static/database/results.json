@@ -1559,6 +1559,58 @@
       "time": "12:27",
       "tourresult": "1",
       "tour": "0"
+    },
+    {
+      "id": "121",
+      "compid": "37",
+      "seasonid": "6",
+      "skierid": "1",
+      "competitionpart": "1",
+      "result": "1",
+      "distance": "2,4",
+      "teqnique": "skate",
+      "time": "7:02",
+      "tourresult": "1",
+      "tour": "0"
+    },
+    {
+      "id": "122",
+      "compid": "37",
+      "seasonid": "6",
+      "skierid": "2",
+      "competitionpart": "1",
+      "result": "13 ",
+      "distance": "2,4",
+      "teqnique": "skate",
+      "time": "9:15",
+      "tourresult": "13",
+      "tour": "0"
+    },
+    {
+      "id": "123",
+      "compid": "38",
+      "seasonid": "6",
+      "skierid": "2",
+      "competitionpart": "1",
+      "result": "10 ",
+      "distance": "1,4",
+      "teqnique": "skate",
+      "time": "5:35",
+      "tourresult": "10",
+      "tour": "0"
+    },
+    {
+      "id": "124",
+      "compid": "38",
+      "seasonid": "6",
+      "skierid": "1",
+      "competitionpart": "1",
+      "result": "2 ",
+      "distance": "1,8",
+      "teqnique": "skate",
+      "time": "5:22",
+      "tourresult": "2",
+      "tour": "0"
     }
   ]
 }
