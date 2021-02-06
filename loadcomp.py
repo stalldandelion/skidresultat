@@ -1,5 +1,29 @@
 #!/usr/bin/env python
 import yaml
+import json
+post = {'id': '',
+        'compid': '',
+        'seasonid': '',
+        'skierid': '',
+        'competitionpart': '1',
+        'result': '',
+        'distance': '',
+        'teqnique': '',
+        'time': '',
+        'tourresult': '',
+        'tour': '0'}
+
+with open('static/database/results.json') as resultstream:
+    results = yaml.load(resultstream, yaml.Loader)
+
+resultid = str(int(results['results'][-1]['id']) + 1)
+
+with open('static/database/skiers.json') as skierstream:
+    skiers = yaml.load(skierstream, yaml.Loader)
+    for skier in skiers['skier']:
+        print(f"{skier['id']}: {skier['name']}")
+
+skierid = input('Vilken åkare: ')
 
 with open('static/database/seasons.json') as seasonstream:
     seasons = yaml.load(seasonstream, yaml.Loader)
@@ -15,5 +39,22 @@ with open('static/database/competitions.json') as compstream:
 
 compid = input('Vilken tävling: ')
 
-technique = input('Vilken teknik (skate/klassisk: ')
+technique = input('Vilken teknik (skate/klassisk): ')
 distance = input('Vilken distans (km): ')
+time = input('Vilken tid: ')
+result = input('Resultat: ')
+
+post['id'] = resultid
+post['skierid'] = skierid
+post['seasonid'] = seasonid
+post['compid'] = compid
+post['teqnique'] = technique
+post['distance'] = distance
+post['result'] = result
+post['time'] = time
+post['tourresult'] = result
+
+
+results['results'].append(post)
+with open('static/database/results.json', 'w') as jsonfile:
+    jsonfile.write(json.dumps(results))
