@@ -68,7 +68,7 @@ def skidresults(skier, template, biathlon=False):
     season_pallplatser = {}
     season_pallplatser_grouped = {}
 
-    seasons = get_seasons(dbconn, skier)
+    seasons = get_seasons(dbconn, skier, biathlon)
 
     for season in seasons:
 
@@ -82,6 +82,7 @@ def skidresults(skier, template, biathlon=False):
         season_pallplatser[season] = [scountpallplatser[0], stot[0]]
         season_pallplatser_grouped[season] = [fvinster, fandra, ftredje]
 
+    print(seasons)
     return render_template(template, seasons=seasons, season_results=season_results,
                            season_pallplatser=season_pallplatser, season_pallplatser_grouped=season_pallplatser_grouped,
                            namn=skier)
