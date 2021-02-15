@@ -39,7 +39,18 @@ with open('static/database/competitions.json') as compstream:
 
 compid = input('Vilken tävling: ')
 
-technique = input('Vilken teknik (skate/klassisk): ')
+choice = 0
+while int(choice) != 1 and int(choice) != 2:
+    print('1: Skate')
+    print('2: Klassisk')
+    choice = input('Vilken teknik (skate/klassisk): ')
+    if int(choice) == 1:
+        technique = 'skate'
+    elif int(choice) == 2:
+        technique = 'klassisk'
+    else:
+        print('Valet är inte godtagbart! Välj nåt av valen nedan....')
+
 distance = input('Vilken distans (km): ')
 time = input('Vilken tid: ')
 result = input('Resultat: ')
