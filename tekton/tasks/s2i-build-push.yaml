@@ -28,7 +28,7 @@ spec:
         - 's2i'
         - 'build'
         - '$(inputs.params.PATH_CONTEXT)'
-        - 'registry.redhat.io/rhel8/python-38'
+        - 'registry.access.redhat.com/ubi8/python-38'
         - '--as-dockerfile'
         - '/gen-source/Dockerfile.gen'
       volumeMounts:

@@ -6,4 +6,4 @@ spec:
   type: git
   params:
   - name: url
-    value: git@github.com:stalldandelion/skidresultat.git
+    value: https://github.com/stalldandelion/skidresultat.git

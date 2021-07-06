@@ -22,5 +22,6 @@ cp -Rf /tmp/src/. ./
 echo "---> Building application from source..."
 if [[ -f requirements.txt ]]; then
     echo "---> Installing python modules..."
+    pip install --upgrade pip
     pip install -r requirements.txt
 fi

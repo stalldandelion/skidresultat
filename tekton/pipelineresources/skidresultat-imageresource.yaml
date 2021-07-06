@@ -6,4 +6,4 @@ spec:
   type: image
   params:
   - name: url
-    value: localhost:5000/misu/skidresultat
+    value: localhost:56293/misu/skidresultat
