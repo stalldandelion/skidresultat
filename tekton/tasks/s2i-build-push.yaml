@@ -14,7 +14,11 @@ spec:
         type: string
       - name: TLSVERIFY
         description: Verify the TLS on the registry endpoint (for push/pull to a non-TLS registry)
-        default: "true"
+        default: "false"
+        type: string
+      - name: IMAGEVERSION
+        description: Verify the TLS on the registry endpoint (for push/pull to a non-TLS registry)
+        default: "3.9"
         type: string
   outputs:
     resources:
@@ -28,7 +32,7 @@ spec:
         - 's2i'
         - 'build'
         - '$(inputs.params.PATH_CONTEXT)'
-        - 'registry.access.redhat.com/ubi8/python-38'
+        - 'registry.access.redhat.com/ubi8/python-39'
         - '--as-dockerfile'
         - '/gen-source/Dockerfile.gen'
       volumeMounts:
@@ -47,7 +51,7 @@ spec:
         privileged: true
     - name: push
       image: quay.io/buildah/stable
-      command: ['buildah', 'push', '--tls-verify=$(inputs.params.TLSVERIFY)', '$(outputs.resources.image.url)', 'docker://$(outputs.resources.image.url)']
+      command: ['buildah', 'push', '--tls-verify=$(inputs.params.TLSVERIFY)', '$(outputs.resources.image.url)', 'docker://$(outputs.resources.image.url):$(inputs.params.IMAGEVERSION)']
       volumeMounts:
         - name: varlibcontainers
           mountPath: /var/lib/containers

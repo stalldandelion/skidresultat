@@ -6,4 +6,5 @@ spec:
   type: image
   params:
   - name: url
-    value: localhost:56293/misu/skidresultat
+    # $(minikube ip):5000/misu/skidresultat
+    value: 192.168.49.2:5000/misu/skidresultat
