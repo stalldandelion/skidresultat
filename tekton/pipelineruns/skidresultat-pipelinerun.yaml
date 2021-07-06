@@ -1,0 +1,15 @@
+apiVersion: tekton.dev/v1beta1
+kind: PipelineRun
+metadata:
+  name: skidresultat-pipelinerun
+spec:
+  serviceAccountName: build-bot
+  pipelineRef:
+    name: skidresultat-pipeline
+  resources:
+    - name: skidresultat-git
+      resourceRef:
+        name: skidresultat-git-res
+    - name: skidresultat-image
+      resourceRef:
+        name: skidresultat-image-res

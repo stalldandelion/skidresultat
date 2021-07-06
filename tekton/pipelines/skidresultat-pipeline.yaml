@@ -1,0 +1,25 @@
+apiVersion: tekton.dev/v1alpha1
+kind: Pipeline
+metadata:
+  name: skidresultat-pipeline
+spec:
+  resources:
+  - name: skidresultat-git
+    type: git
+  - name: skidresultat-image
+    type: image
+  tasks:
+  - name: build-s2i
+    taskRef:
+      name: s2i-build-push
+      kind: Task
+    params:
+      - name: TLSVERIFY
+        value: "false"
+    resources:
+      inputs:
+      - name: source
+        resource: skidresultat-git
+      outputs:
+      - name: image
+        resource: skidresultat-image

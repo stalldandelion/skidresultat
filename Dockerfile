@@ -1,17 +1,13 @@
-# this is an official Python runtime, used as the parent image
-FROM python:3.9.1
-
-# set the working directory in the container to /app
+# with this line we import python language.
+FROM python:3.9
+# copy the requirements.txt file in the image
+COPY ./requirements.txt /app/requirements.txt
+# the working directory will be the /app directory which can be
+# found inside the python image
 WORKDIR /app
-
-# add the current directory to the container as /app
-ADD . /app
-
-# execute everyone's favorite pip command, pip install -r
-RUN pip install --trusted-host pypi.python.org -r requirements.txt
-
-# unblock port 80 for the Flask app to run on
-EXPOSE 80
-
-# execute the Flask app
-CMD ["python", "skidresultat-app.py"]
+# let's install the requirements (only Flask is needed)
+RUN pip install -r requirements.txt
+# we can now add our directory to the working directory
+COPY . /app
+# let's run the application
+CMD [ "python","skidresultat-app.py" ]

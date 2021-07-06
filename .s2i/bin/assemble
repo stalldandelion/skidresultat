@@ -1,0 +1,26 @@
+#!/bin/bash -e
+
+#1. Print help information
+if [[ "$1" == "-h" ]]; then
+        exec /usr/libexec/s2i/usage
+fi
+
+#2. Recover artifacts from the last build image for incremental build
+#Shoot - s dotlob enables * to match hidden files and directories, so the MV below can be used for all files
+if [ -d /tmp/artifacts ]; then
+  echo "---> Restoring build artifacts..."
+  shopt -s dotglob
+  mv /tmp/artifacts/* ./
+  shopt -u dotglob
+fi
+
+#3. Copy the source code to the current working directory
+echo "---> Installing application source..."
+cp -Rf /tmp/src/. ./
+
+#4. Compile the application and check whether it exists here requirements.txt File, if it exists, call PIP installation module
+echo "---> Building application from source..."
+if [[ -f requirements.txt ]]; then
+    echo "---> Installing python modules..."
+    pip install -r requirements.txt
+fi
