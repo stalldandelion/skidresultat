@@ -2,22 +2,26 @@
 ## Installera minikube
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-amd64
 sudo install minikube-darwin-amd64 /usr/local/bin/minikube
+# Setup with script
+cd git-project-root # skidresultat
+./setup-kube.bash
 
-# Docker
-## Installera docker-desktop (Mac)
+# Setup Manually
+## Docker
+### Installera docker-desktop (Mac)
 https://desktop.docker.com/mac/stable/amd64/Docker.dmg
 
-# Kubernetes
-## Starta kubernetes
+## Kubernetes
+### Starta kubernetes
 minikube start --driver=docker
 minikube addons enable registry
 eval $(minikube docker-env)
 
-# Tekton
-## installera
+## Tekton
+### installera
 kubectl apply --filename https://storage.googleapis.com/tekton-releases/pipeline/latest/release.yaml
 
-## Installera pipeline
+### Installera pipeline
 git checkout https://github.com/stalldandelion/skidresultat.git
 cd skidresultat
 kubectl apply -f tekton/pipelineresources/skidresultat-gitresource.yaml 
@@ -25,11 +29,12 @@ kubectl apply -f tekton/pipelineresources/skidresultat-imageresource.yaml
 kubectl apply -f tekton/pipelines/skidresultat-pipeline.yaml
 kubectl apply -f tekton/tasks/s2i-build-push.yaml
 tkn pipeline start skidresultat-pipeline --resource skidresultat-git=skidresultat-git-res --resource skidresultat-image=skidresultat-image-res
+tkn pipeline logs --last -f
 
 kubectl run -i -t skidresultat --image=localhost:5000/misu/skidresultat
-kubectl port-forward pod/skidresultat 8080:8080
+kubectl port-forward $(kubectl get pod --selector=app=skidresultat -o name) 8080:8080
 
-## Kör applikationen i terminal
+### Kör applikationen i terminal
 git checkout https://github.com/stalldandelion/skidresultat.git
 cd skidresultat
 pip install -r requirements.txt

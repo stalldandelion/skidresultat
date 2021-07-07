@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: skidresultat
+  name: skidresultat-deployment
+spec:
+  clusterIP: 10.103.47.195
+  clusterIPs:
+  - 10.103.47.195
+  externalTrafficPolicy: Cluster
+  ports:
+  - nodePort: 30405
+    port: 8080
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: skidresultat
+  sessionAffinity: None
+  type: NodePort
+status:
+  loadBalancer: {}

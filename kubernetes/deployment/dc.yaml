@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: skidresultat-deployment
+  labels:
+    app: skidresultat
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: skidresultat
+  template:
+    metadata:
+      labels:
+        app: skidresultat
+    spec:
+      containers:
+      - name: skidresultat
+        image: localhost:5000/misu/skidresultat:3.9
+        ports:
+        - containerPort: 8080
