@@ -156,7 +156,6 @@ def skidresults(skier, template, biathlon=False):
         season_pallplatser[season] = [scountpallplatser[0], stot[0]]
         season_pallplatser_grouped[season] = [fvinster, fandra, ftredje]
 
-    print(seasons)
     return render_template(
         template,
         seasons=seasons,
