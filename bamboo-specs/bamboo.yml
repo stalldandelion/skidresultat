@@ -2,7 +2,7 @@
 version: 2
 plan:
   project-key: SKID
-  key: resultat
+  key: SKID
   name: Visa resultat
 stages:
   - Bygg:
