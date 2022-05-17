@@ -1,14 +1,14 @@
 ---
 version: 2
 plan:
-  project-key: MARS
-  key: ROCKET
-  name: Build the rocket
+  project-key: SKID
+  key: resultat
+  name: Visa resultat
 stages:
-  - Build hull:
+  - Bygg:
     - Build
 
 Build:
   tasks:
     - script:
-      - echo 'Hello World!'
+      - echo 'Hello skidesultat!'
