@@ -5,7 +5,7 @@ plan:
   key: TES
   name: Visa resultat
   
-docker: python
+#docker: python
 
 stages:
   - Bygg:
@@ -14,6 +14,7 @@ stages:
       - Build2
 
 Build:
+  docker: python
   tasks:
     - script:
       - pip install -r requirements.txt
