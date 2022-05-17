@@ -6,9 +6,15 @@ plan:
   name: Visa resultat
 stages:
   - Bygg:
-    - Builds
+    - Build
+    - Build2
 
 Build:
+  tasks:
+    - script:
+      - echo 'Hello skidesultat!'
+      
+Build2:
   tasks:
     - script:
       - echo 'Hello skidesultat!'
