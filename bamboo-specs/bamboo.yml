@@ -9,9 +9,9 @@ docker: python
 
 stages:
   - Bygg:
-      jobs:
-        - Build
-        - Build2
+      #jobs:
+      - Build
+      - Build2
 
 Build:
   tasks:
