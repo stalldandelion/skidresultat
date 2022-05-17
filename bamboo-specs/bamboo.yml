@@ -4,6 +4,9 @@ plan:
   project-key: TES
   key: TES
   name: Visa resultat
+  
+docker: python
+
 stages:
   - Bygg:
       jobs:
