@@ -5,7 +5,7 @@ plan:
   key: TES
   name: Visa resultat
   
-docker: python
+#docker: python
 
 stages:
   - Bygg:
