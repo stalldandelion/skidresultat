@@ -6,7 +6,7 @@ plan:
   name: Visa resultat
 stages:
   - Bygg:
-    - Build
+    - Builds
 
 Build:
   tasks:
