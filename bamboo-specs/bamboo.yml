@@ -1,7 +1,7 @@
 ---
 version: 2
 plan:
-  project-key: test2
+  project-key: TES
   key: TES
   name: Visa resultat
 stages:
