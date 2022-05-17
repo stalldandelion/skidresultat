@@ -13,7 +13,7 @@ stages:
 Build:
   tasks:
     - script:
-      - echo 'Hello skidesultat!'
+      - echo 'Hello skidesultat1!'
       
 Build2:
   tasks:
