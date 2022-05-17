@@ -1,0 +1,14 @@
+---
+version: 2
+plan:
+  project-key: MARS
+  key: ROCKET
+  name: Build the rocket
+stages:
+  - Build hull:
+    - Build
+
+Build:
+  tasks:
+    - script:
+      - echo 'Hello World!'
