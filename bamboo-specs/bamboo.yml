@@ -6,9 +6,9 @@ plan:
   name: Visa resultat
 stages:
   - Bygg:
-    jobs:
-      - Build
-      - Build2
+      jobs:
+        - Build
+        - Build2
 
 Build:
   tasks:
