@@ -1,8 +1,8 @@
 ---
 version: 2
 plan:
-  project-key: SKID
-  key: SKID
+  project-key: test2
+  key: TES
   name: Visa resultat
 stages:
   - Bygg:
